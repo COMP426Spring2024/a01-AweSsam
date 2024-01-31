@@ -1,0 +1,63 @@
+h1, h2, h3, h4, h5, h6 { /* Main Headings are all bright white */
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+li, a, table, p { /* Secondary letterings are all off-white */
+    font-family: Helvetica Neue, Arial, sans-serif;
+    color: #c7c7c7;
+}
+
+header { /* The navigation bar */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 10%;
+    background-color: #494949;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #2f2f2f;
+}
+
+#logo {
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-right: auto;
+}
+
+#logo li, a {
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.nav_links li a:hover {
+    color: #0088a9
+}
