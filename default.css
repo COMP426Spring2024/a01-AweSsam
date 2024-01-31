@@ -7,6 +7,7 @@ h1, h2, h3, h4, h5, h6 { /* Main Headings are all bright white */
 li, a, table, p { /* Secondary letterings are all off-white */
     font-family: Helvetica Neue, Arial, sans-serif;
     color: #c7c7c7;
+    text-decoration: none;
 }
 
 header { /* The navigation bar */
@@ -17,13 +18,35 @@ header { /* The navigation bar */
     background-color: #494949;
 }
 
-html, body {
+body {
     padding: 0;
     margin: 0;
+    background-color: #2f2f2f;
 }
 
-body {
-    background-color: #2f2f2f;
+.s1 {
+    background-image: url("images/indexbackground.jpg");
+    background-size: cover;
+    background-position:0em;
+    display: grid;
+    text-align: center;
+    align-content: center;
+    min-height: 20em;
+    margin: 0 auto;
+}
+
+.s1 h1 {
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: 100;
+    letter-spacing: 30px;
+}
+
+.s2 {
+    display: grid;
+    text-align: left;
+    padding-left: 30px;
+    align-content: center;
 }
 
 #logo {
@@ -34,7 +57,7 @@ body {
 }
 
 #logo li, a {
-    font-family: Helvetica Neue, Arial, sans-serif;
+    font-family: Verdana, sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #ffffff;
