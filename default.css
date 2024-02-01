@@ -36,7 +36,7 @@ body {
 }
 
 .s1 .surya {
-    background-image: url("images/connor-sheehan-forest-scene-01-final-02.jpg");
+    background-image: url("images/suryabackground.jpg");
     background-size: cover;
     background-position:0em;
     display: grid;
@@ -47,7 +47,7 @@ body {
 }
 
 .s1 .soma {
-    background-image: url("images/grady-frederick-4-2-2019.jpg");
+    background-image: url("images/somabackground.jpg");
     background-size: cover;
     background-position:bottom;
     display: grid;
@@ -58,7 +58,7 @@ body {
 }
 
 .s1 .six {
-    background-image: url("images/viktor-titov-10-may2015-forest-02.jpg");
+    background-image: url("images/sixbackground.jpg");
     background-size: cover;
     background-position:top;
     display: grid;
