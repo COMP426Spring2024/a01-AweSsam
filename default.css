@@ -24,10 +24,43 @@ body {
     background-color: #2f2f2f;
 }
 
-.s1 {
+.s1 .main {
     background-image: url("images/indexbackground.jpg");
     background-size: cover;
     background-position:0em;
+    display: grid;
+    text-align: center;
+    align-content: center;
+    min-height: 20em;
+    margin: 0 auto;
+}
+
+.s1 .surya {
+    background-image: url("images/connor-sheehan-forest-scene-01-final-02.jpg");
+    background-size: cover;
+    background-position:0em;
+    display: grid;
+    text-align: center;
+    align-content: center;
+    min-height: 20em;
+    margin: 0 auto;
+}
+
+.s1 .soma {
+    background-image: url("images/grady-frederick-4-2-2019.jpg");
+    background-size: cover;
+    background-position:bottom;
+    display: grid;
+    text-align: center;
+    align-content: center;
+    min-height: 20em;
+    margin: 0 auto;
+}
+
+.s1 .six {
+    background-image: url("images/viktor-titov-10-may2015-forest-02.jpg");
+    background-size: cover;
+    background-position:top;
     display: grid;
     text-align: center;
     align-content: center;
