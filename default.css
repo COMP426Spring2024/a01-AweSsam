@@ -6,10 +6,15 @@ h1, h2, h3, h4, h5, h6 { /* Main Headings are all bright white */
 
 li, a, table, p { /* Secondary letterings are all off-white */
     font-family: Helvetica Neue, Arial, sans-serif;
-    color: #c7c7c7;
+    color: #dbd1d1;
     text-decoration: none;
 }
 
+#selectweapon {
+    background-color: #dbd1d1;
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-size: 15px;
+}
 
 #thesix {
     border-collapse: collapse;
